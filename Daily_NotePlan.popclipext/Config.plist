@@ -1,76 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>Actions</key>
-	<array>
-		<dict>
-			<key>Image File</key>
-			<string>calendarnote.png</string>
-			<!--<key>Regular Expression</key>
-			<string>(?s)^.{1,}$</string>-->
-			<key>Title</key>
-			<string>Daily NotePlan</string>
-			<key>URL</key>
-			<string>noteplan://x-callback-url/addText?noteDate=today&text={popclip urlencoded text}&mode=append&openNote=yes</string>
-		</dict>
-	</array>
-	<key>Extension Description</key>
-	<string>Clip to the daily note in NotePlan.</string>
-	<key>Extension Identifier</key>
-	<string>com.noteplan.dailynote</string>
-	<key>Extension Name</key>
-	<string>Daily Note</string>
-	<key>Apps</key>
-		<array>
-			<dict>
-				<key>Bundle Identifiers</key>
-				<array>
-					<string>co.noteplan.NotePlan</string>
-					<string>co.noteplan.NotePlan3</string>
-				</array>
-				<key>Check Installed</key>
-				<true/>
-				<key>Link</key>
-				<string>http://noteplan.co/</string>
-				<key>Name</key>
-				<string>NotePlan</string>
-			</dict>
-		</array>
-	<!--<key>Options</key>
-	<array>
-		<dict>
-			<key>Option Default Value</key>
-			<string>amazon.com</string>
-			<key>Option Identifier</key>
-			<string>notefolder</string>
-			<key>Option Label</key>
-			<dict>
-				<key>en</key>
-				<string>Note Location</string>
-			</dict>
-			<key>Option Type</key>
-			<string>multiple</string>
-			<key>Option Values</key>
-			<array>
-				<string>Daily Note</string>
-				<string>New Note</string>
-			</array>
-		</dict>
-	</array>
-	<key>Options Title</key>
 	<dict>
-		<key>en</key>
-		<string>Choose where to create the new note.</string>
-	</dict>-->
-	<key>Required Software Version</key>
-	<integer>693</integer>
-	<key>Credits</key>
+		<key>Actions</key>
 		<array>
 			<dict>
-				<key>Name</key>
-				<string>Brad Rokosz</string>
+				<key>Image File</key>
+				<string>calendarnote.png</string>
+				<key>Title</key>
+				<string>Daily NotePlan</string>
+				<key>URL</key>
+				<string>noteplan://x-callback-url/addText?noteDate=today&text={popclip urlencoded text}&mode=append&openNote=yes</string>
 			</dict>
 		</array>
-</dict>
+		<key>Extension Description</key>
+		<string>Clip to the daily note in NotePlan.</string>
+		<key>Extension Identifier</key>
+		<string>com.noteplan.dailynote</string>
+		<key>Extension Name</key>
+		<string>Daily Note</string>
+		<key>Apps</key>
+			<array>
+				<dict>
+					<key>Bundle Identifiers</key>
+					<array>
+						<string>co.noteplan.NotePlan</string>
+						<string>co.noteplan.NotePlan3</string>
+					</array>
+					<key>Check Installed</key>
+					<true/>
+					<key>Link</key>
+					<string>https://noteplan.co/</string>
+					<key>Name</key>
+					<string>NotePlan</string>
+				</dict>
+			</array>
+		<key>Credits</key>
+			<array>
+				<dict>
+					<key>Name</key>
+					<string>Brad Rokosz</string>
+				</dict>
+			</array>
+		<key>Required Software Version</key>
+		<integer>693</integer>
+	</dict>
 </plist>
