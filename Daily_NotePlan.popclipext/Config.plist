@@ -26,7 +26,7 @@
 				<key>Regular Expression</key>
 				<string>(?s)^.{1,1900}$</string>
 				<key>URL</key>
-				<string>noteplan://x-callback-url/addText?noteDate=today&amp;text=%0A{popclip text}%0AA&amp;mode=append&amp;openNote=yes</string>
+				<string>noteplan://x-callback-url/addText?noteDate=today&amp;text=%0A{popclip text}%0A&amp;mode=append&amp;openNote=yes</string>
 				<key>Requirements</key>
 					<array>
 						<string>option-tag=0</string>
