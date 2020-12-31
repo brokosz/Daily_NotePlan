@@ -10,7 +10,7 @@
 				<key>Title</key>
 				<string>Daily NotePlan</string>
 				<key>URL</key>
-				<string>noteplan://x-callback-url/addText?noteDate=today&amp;text={popclip urlencoded text}&amp;mode=append&amp;openNote=yes</string>
+				<string>noteplan://x-callback-url/addText?noteDate=today&amp;text={popclip text}&amp;mode=append&amp;openNote=yes</string>
 			</dict>
 		</array>
 		<key>Extension Description</key>
@@ -42,7 +42,7 @@
 					<string>Brad Rokosz</string>
 				</dict>
 			</array>
-		<key>Required Software Version</key>
-		<integer>693</integer>
+	<key>Required Software Version</key>
+	<integer>701</integer>
 	</dict>
 </plist>
