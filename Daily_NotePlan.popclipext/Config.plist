@@ -9,6 +9,8 @@
 				<string>calendarnote.png</string>
 				<key>Title</key>
 				<string>Daily NotePlan</string>
+				<key>Regular Expression</key>
+				<string>(?s)^.{1,1900}$</string>
 				<key>URL</key>
 				<string>noteplan://x-callback-url/addText?noteDate=today&amp;text={popclip text}&amp;mode=append&amp;openNote=yes</string>
 			</dict>
@@ -43,6 +45,6 @@
 				</dict>
 			</array>
 	<key>Required Software Version</key>
-	<integer>701</integer>
+	<integer>719</integer>
 	</dict>
 </plist>
