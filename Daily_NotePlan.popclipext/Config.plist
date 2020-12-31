@@ -20,7 +20,7 @@
 		<key>Extension Identifier</key>
 		<string>com.noteplan.dailynote</string>
 		<key>Extension Name</key>
-		<string>Daily Note</string>
+		<string>Daily NotePlan</string>
 		<key>Apps</key>
 			<array>
 				<dict>
