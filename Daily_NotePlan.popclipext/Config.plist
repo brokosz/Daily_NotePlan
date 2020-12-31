@@ -12,7 +12,7 @@
 				<key>Regular Expression</key>
 				<string>(?s)^.{1,1900}$</string>
 				<key>URL</key>
-				<string>noteplan://x-callback-url/addText?noteDate=today&amp;text={popclip text}&amp;mode=append&amp;openNote=yes</string>
+				<string>noteplan://x-callback-url/addText?noteDate=today&amp;text=%23clip%5Cn{popclip text}&amp;mode=append&amp;openNote=yes</string>
 			</dict>
 		</array>
 		<key>Extension Description</key>
